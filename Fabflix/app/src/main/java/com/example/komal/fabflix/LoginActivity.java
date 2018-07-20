@@ -314,7 +314,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         @Override
         protected Boolean doInBackground(Void... params) {
             try {
-                String url = "http://ec2-13-57-41-113.us-west-1.compute.amazonaws.com:8080/fabflixApp/Login";
+                String url = "http://ec2-13-57-13-30.us-west-1.compute.amazonaws.com:8080/fabflixApp/Login";
                 List<NameValuePair> parameters = new ArrayList<NameValuePair>();
                 parameters.add(new BasicNameValuePair("username",mEmail));
                 parameters.add(new BasicNameValuePair("password",mPassword));

@@ -623,7 +623,7 @@ public class SearchResults extends AppCompatActivity {
         @Override
         protected Boolean doInBackground(Void... params) {
             try {
-                String url = "http://ec2-13-57-41-113.us-west-1.compute.amazonaws.com:8080/fabflixApp/NormalSearch";
+                String url = "http://ec2-13-57-13-30.us-west-1.compute.amazonaws.com:8080/fabflixApp/NormalSearch";
                 String[] qArray = query.trim().split("\\s+");
                 DefaultHttpClient httpClient = new DefaultHttpClient();
                 url += "?title=";
